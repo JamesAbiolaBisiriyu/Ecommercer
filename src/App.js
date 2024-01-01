@@ -6,12 +6,14 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
+import Footer from './Components/footer/Footer';
 
 function App() {
   return (
     <div >
       <BrowserRouter>
       <NavBar/>
+
       {/* navbar will be available in all the components */}
       <Routes>
       <Route path='/' element={<Shop/>}/>
@@ -32,6 +34,7 @@ function App() {
 
 
       </Routes>
+      <Footer/>
       
      </BrowserRouter>
       
