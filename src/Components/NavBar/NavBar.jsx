@@ -12,6 +12,8 @@ const NavBar = () => {
   // setMenu declared to assign values/names of each page
 
   return (
+    <div className='pst'>
+
     <div className='navbar'>
       <div className='nav-log'>
         <img src={logo} alt="" />
@@ -36,6 +38,8 @@ const NavBar = () => {
         </div>
 
     </div>
+    </div>
+
   )
 }
 
