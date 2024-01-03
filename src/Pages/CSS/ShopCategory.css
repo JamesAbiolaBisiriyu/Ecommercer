@@ -16,12 +16,13 @@
 }
 .shopcategory-indexSort p span {
 font-weight: 600;
+margin-left: 200px;
 }
 .shopcategory-products {
   margin: 20px 170px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 15px;
 }
 .shopcategory-loadmore {
   display: flex;
