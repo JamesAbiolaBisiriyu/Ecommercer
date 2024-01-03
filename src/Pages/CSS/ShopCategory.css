@@ -22,7 +22,7 @@ margin-left: 200px;
   margin: 20px 170px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 15px;
+  gap: 10px;
 }
 .shopcategory-loadmore {
   display: flex;
