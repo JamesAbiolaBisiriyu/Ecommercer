@@ -1,8 +1,4 @@
-/* .pst {
-  position: fixed;
-  background: pink;
-  display: flex;
-} */
+
 .navbar {
   display: flex;
   justify-content: space-around;
