@@ -45,7 +45,35 @@ const {all_product,cartItems,removeFromCart} = useContext(ShopContext);
       }
       return null;
     })}
-
+      <div className="cartitems-down">
+        <div className="cartitems-total">
+          <h1>Cart Totals</h1>
+          <div>
+            <div className="cartitems-total-items">
+              <p>Subtotal</p>
+              <p>=N={0}</p>
+            </div>
+            <hr />
+            <div className='cartitems-total-items'>
+              <p>Shipping Fee</p>
+              <p>Free</p>
+            </div>
+            <hr />
+            <div className='cartitems-total-items'>
+              <h3>Total</h3>
+              <h3>=N={0}</h3>
+            </div>
+          </div>
+          <button>PROCEED TO CHECKOUT</button>
+        </div>
+        <div className="cartitems-promocode">
+          <p>If You Have A Promo Code, Enter It Here</p>
+          <div className="cartitems-promobox">
+            <input type="text" placeholder="Enter Your Promo Code" />
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
