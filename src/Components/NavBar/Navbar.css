@@ -6,8 +6,10 @@
   box-shadow: 0 1px 3px -2px black;
   position: fixed; 
  top: 0px; right: 0; left: 0; height: 55px;
- background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+ background: white;
+ /* background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%); */
  align-items: center; 
+ z-index: 1;
   /* position: fixed; */
 }
 .nav-logo {
