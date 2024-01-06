@@ -148,5 +148,9 @@
     .cartitems-format {
       display: grid;
     }
+    .cartItems {
+      margin-top: 120px ;
+    }
+    
 
   }
