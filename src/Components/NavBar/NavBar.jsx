@@ -1,17 +1,20 @@
-import React, {  useState } from 'react'
+import React, {  useContext, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
  import dropdown_icon1 from '../Assets/nav_dropdown.png'
 import {  useRef } from 'react'
+import { ShopContext } from '../../Context/ShopContext'
 // import {ShopContext} from '../../Context'
 
 
 const NavBar = () => {
 
+  
   const [menu,setMenu] = useState("shop");
   const menuRef = useRef();
+  const {getTotalCartItems} = useContext(ShopContext);
   // usestate used along with ONCLICK to select each component/pages
   // setMenu declared to assign values/names of each page
   const dropdown_toggle = (e) => {
@@ -42,7 +45,7 @@ const NavBar = () => {
         <div className='nav-login-cart'>
           <Link to = '/login'><button>Login</button></Link>
           <Link to = '/cart'><img src={cart_icon} alt="" /></Link>
-          <div className="nav-cart-count">0</div>
+          <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>
 
     </div>
