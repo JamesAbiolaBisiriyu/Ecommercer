@@ -1,8 +1,9 @@
 .hero {
-  height: 100vh;
+  height: 70vh;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .hero-left {
   flex: 1;
