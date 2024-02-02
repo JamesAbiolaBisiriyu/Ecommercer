@@ -4,9 +4,9 @@
   display: flex;
   margin: auto;
   padding: 0px 140px;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
-  margin-top: 150px;
+  margin-top: 10px;
 }
 .offers-left {
   flex: 1;

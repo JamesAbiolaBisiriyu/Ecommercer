@@ -51,7 +51,7 @@ const {getTotalCartAmount, all_product,cartItems,removeFromCart} = useContext(Sh
           <div>
             <div className="cartitems-total-items">
               <p>Subtotal</p>
-              <p>{getTotalCartAmount()}</p>
+              <p>=N={getTotalCartAmount()}</p>
             </div>
             <hr />
             <div className='cartitems-total-items'>
@@ -61,7 +61,7 @@ const {getTotalCartAmount, all_product,cartItems,removeFromCart} = useContext(Sh
             <hr />
             <div className='cartitems-total-items'>
               <h3>Total</h3>
-              <h3>{getTotalCartAmount()}</h3>
+              <h3>=N={getTotalCartAmount()}</h3>
             </div>
           </div>
           <button>PROCEED TO CHECKOUT</button>
